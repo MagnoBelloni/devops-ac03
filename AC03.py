@@ -4,25 +4,26 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route('/')
-def nao_entre_em_panico():
-    limite = 100
-    qtdPrimos = 2
-    numero = 3
-    primos = "1,2,"
+def primo(num):
+    for i in range(2, num):
+        if num % i == 0:
+            return False
+    return True
 
-    while qtdPrimos < limite:
-        ehprimo = 1
-        for i in range(2, numero):
-            if numero % i == 0:
-                ehprimo = 0
-                break
+
+@app.route('/')
+def primos():
+    limite = 100
+    primos = "<h1>Números primos</h1><br>"
+    pula_linha = 10
+    for num in range(2, limite+1):
+        ehprimo = primo(num)
         if(ehprimo):
-            primos = primos + str(numero) + ","
-            qtdPrimos += 1
-            if(qtdPrimos % 10 == 0):
-                primos = primos + " -> " + str(qtdPrimos) + "<br>"
-        numero += 1
+            primos += str(num) + ", "
+            pula_linha -= 1
+        if(pula_linha == 0):
+            primos += "<br>"
+            pula_linha = 10
     return primos
 
 

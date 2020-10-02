@@ -1,0 +1,77 @@
+2020-10-02T00:00:46.606099+00:00 app[api]: Release v1 created by user bellonidesouza6@gmail.com
+2020-10-02T00:00:46.606099+00:00 app[api]: Initial release by user bellonidesouza6@gmail.com
+2020-10-02T00:00:46.847539+00:00 app[api]: Release v2 created by user bellonidesouza6@gmail.com
+2020-10-02T00:00:46.847539+00:00 app[api]: Enable Logplex by user bellonidesouza6@gmail.com
+2020-10-02T00:04:37.000000+00:00 app[api]: Build started by user bellonidesouza6@gmail.com
+2020-10-02T00:05:04.341281+00:00 app[api]: Deploy a739627c by user bellonidesouza6@gmail.com
+2020-10-02T00:05:04.341281+00:00 app[api]: Release v3 created by user bellonidesouza6@gmail.com
+2020-10-02T00:05:04.354589+00:00 app[api]: Scaled to web@1:Free by user bellonidesouza6@gmail.com
+2020-10-02T00:05:07.770212+00:00 heroku[web.1]: Starting process with command `python AC03.py start`
+2020-10-02T00:05:10.747771+00:00 app[web.1]: * Serving Flask app "AC03" (lazy loading)
+2020-10-02T00:05:10.747818+00:00 app[web.1]: * Environment: production
+2020-10-02T00:05:10.747864+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-02T00:05:10.747927+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-02T00:05:10.747971+00:00 app[web.1]: * Debug mode: off
+2020-10-02T00:05:10.756455+00:00 app[web.1]: * Running on http://127.0.0.1:43036/ (Press CTRL+C to quit)
+2020-10-02T00:05:13.000000+00:00 app[api]: Build succeeded
+2020-10-02T00:06:08.177698+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2020-10-02T00:06:08.195406+00:00 heroku[web.1]: Stopping process with SIGKILL
+2020-10-02T00:06:08.265891+00:00 heroku[web.1]: Process exited with status 137
+2020-10-02T00:06:08.301411+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-02T00:06:08.306953+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-02T00:06:12.423395+00:00 heroku[web.1]: Starting process with command `python AC03.py start`
+2020-10-02T00:06:15.911931+00:00 app[web.1]: * Serving Flask app "AC03" (lazy loading)
+2020-10-02T00:06:15.911962+00:00 app[web.1]: * Environment: production
+2020-10-02T00:06:15.911983+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-02T00:06:15.912038+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-02T00:06:15.912082+00:00 app[web.1]: * Debug mode: off
+2020-10-02T00:06:16.007333+00:00 app[web.1]: * Running on http://127.0.0.1:21147/ (Press CTRL+C to quit)
+2020-10-02T00:07:12.744417+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2020-10-02T00:07:12.778980+00:00 heroku[web.1]: Stopping process with SIGKILL
+2020-10-02T00:07:12.930756+00:00 heroku[web.1]: Process exited with status 137
+2020-10-02T00:07:12.990827+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-02T00:07:14.537468+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=ac3primos.herokuapp.com request_id=2d18cc54-c073-4d64-ab6b-bd04d3af381c fwd="138.255.132.97" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-02T00:07:15.330871+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=ac3primos.herokuapp.com request_id=89970e97-0286-4af9-9478-f189bf97c090 fwd="138.255.132.104" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-02T00:07:16.792663+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=ac3primos.herokuapp.com request_id=592958f7-4bf8-4dde-a356-8725e78adc50 fwd="138.255.132.97" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-02T00:07:17.000000+00:00 app[api]: Build started by user bellonidesouza6@gmail.com
+2020-10-02T00:07:40.183052+00:00 app[api]: Release v4 created by user bellonidesouza6@gmail.com
+2020-10-02T00:07:40.183052+00:00 app[api]: Deploy d16ca2d5 by user bellonidesouza6@gmail.com
+2020-10-02T00:07:40.615163+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-02T00:07:43.300898+00:00 heroku[web.1]: Starting process with command `python AC03.py start`
+2020-10-02T00:07:45.353294+00:00 app[web.1]: * Serving Flask app "AC03" (lazy loading)
+2020-10-02T00:07:45.353311+00:00 app[web.1]: * Environment: production
+2020-10-02T00:07:45.353338+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-02T00:07:45.353389+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-02T00:07:45.353419+00:00 app[web.1]: * Debug mode: off
+2020-10-02T00:07:45.372719+00:00 app[web.1]: * Running on http://127.0.0.1:22919/ (Press CTRL+C to quit)
+2020-10-02T00:07:48.000000+00:00 app[api]: Build succeeded
+2020-10-02T00:08:43.327309+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2020-10-02T00:08:43.344215+00:00 heroku[web.1]: Stopping process with SIGKILL
+2020-10-02T00:08:43.395746+00:00 heroku[web.1]: Process exited with status 137
+2020-10-02T00:08:43.436269+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-02T00:10:23.633878+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=ac3primos.herokuapp.com request_id=9d298867-a92c-442f-8e1e-a691ee7644b8 fwd="138.255.132.104" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-02T00:10:23.883881+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=ac3primos.herokuapp.com request_id=b112e702-14a2-42d9-8c23-978eaddf0641 fwd="138.255.132.104" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-02T00:10:30.116300+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=ac3primos.herokuapp.com request_id=dd66f932-16ff-499d-94f4-80d843cd8dec fwd="138.255.132.97" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-02T00:10:30.321177+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=ac3primos.herokuapp.com request_id=018a4132-5e68-40c0-a36d-c49a7e297c3d fwd="138.255.132.97" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-02T00:13:01.000000+00:00 app[api]: Build started by user bellonidesouza6@gmail.com
+2020-10-02T00:13:25.897296+00:00 app[api]: Release v5 created by user bellonidesouza6@gmail.com
+2020-10-02T00:13:25.897296+00:00 app[api]: Deploy 758826bb by user bellonidesouza6@gmail.com
+2020-10-02T00:13:26.329422+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-02T00:13:29.206009+00:00 heroku[web.1]: Starting process with command `python AC03.py start`
+2020-10-02T00:13:31.801266+00:00 app[web.1]: * Serving Flask app "AC03" (lazy loading)
+2020-10-02T00:13:31.801292+00:00 app[web.1]: * Environment: production
+2020-10-02T00:13:31.801293+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-02T00:13:31.801320+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-02T00:13:31.801362+00:00 app[web.1]: * Debug mode: off
+2020-10-02T00:13:31.821630+00:00 app[web.1]: * Running on http://0.0.0.0:26260/ (Press CTRL+C to quit)
+2020-10-02T00:13:31.907886+00:00 heroku[web.1]: State changed from starting to up
+2020-10-02T00:13:35.000000+00:00 app[api]: Build succeeded
+2020-10-02T00:13:49.947083+00:00 app[web.1]: 10.63.145.103 - - [02/Oct/2020 00:13:49] "GET / HTTP/1.1" 200 -
+2020-10-02T00:13:50.146273+00:00 app[web.1]: 10.63.145.103 - - [02/Oct/2020 00:13:50] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-02T00:13:50.147352+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3primos.herokuapp.com request_id=bb34dc57-796a-46fc-bba2-ccc68e36159f fwd="138.255.132.99" dyno=web.1 connect=1ms service=24ms status=404 bytes=379 protocol=https
+2020-10-02T00:14:40.918105+00:00 app[web.1]: 10.142.192.223 - - [02/Oct/2020 00:14:40] "GET / HTTP/1.1" 200 -
+2020-10-02T00:14:40.921870+00:00 heroku[router]: at=info method=GET path="/" host=ac3primos.herokuapp.com request_id=920bd22f-a9ee-4184-af3b-5c60cacf64b7 fwd="138.255.132.108" dyno=web.1 connect=1ms service=8ms status=200 bytes=625 protocol=https
+2020-10-02T00:48:39.925460+00:00 heroku[web.1]: Idling
+2020-10-02T00:48:39.928215+00:00 heroku[web.1]: State changed from up to down
+2020-10-02T00:48:40.998832+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-02T00:48:41.106151+00:00 heroku[web.1]: Process exited with status 143
