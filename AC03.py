@@ -22,7 +22,7 @@ def nao_entre_em_panico():
             qtdPrimos += 1
             if(qtdPrimos % 10 == 0):
                 primos = primos + " -> " + str(qtdPrimos) + "<br>"
-            numero += 1
+        numero += 1
     return primos
 
 
