@@ -4,26 +4,26 @@ from flask import Flask
 app = Flask(__name__)
 
 
-def primo(num):
-    for i in range(2, num):
-        if num % i == 0:
-            return False
-    return True
-
-
 @app.route('/')
 def primos():
     limite = 100
-    primos = "<h1>Números primos</h1><br>"
-    pula_linha = 10
-    for num in range(2, limite+1):
-        ehprimo = primo(num)
+    qtdPrimos = 1
+    numero = 3
+    primos = "<h1>Números primos</h1><br>2,"
+    # primos = "2,"
+
+    while qtdPrimos < limite:
+        ehprimo = 1
+        for i in range(2, numero):
+            if numero % i == 0:
+                ehprimo = 0
+                break
         if(ehprimo):
-            primos += str(num) + ", "
-            pula_linha -= 1
-        if(pula_linha == 0):
-            primos += "<br>"
-            pula_linha = 10
+            primos = primos + str(numero) + ","
+            qtdPrimos += 1
+            if(qtdPrimos % 10 == 0):
+                primos = primos + "<br>"
+        numero += 1
     return primos
 
 
